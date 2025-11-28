@@ -6,7 +6,7 @@ Render an $${\textbf{OpenType}}$$ font family named $${\textbf{\color{blue}Post 
 that closely matches Donald E. Knuth’s font family $${\textbf{\color{blue}Computer Modern}}$$,
 the font family used in the original LaTeX including by default in today’s pdflatex variant.
 
-The idea is to generate this font family from the $${\textbf{\color{blue}METAFONT}}$$ font files,
+The idea is to generate this font family from the $${\textbf{\color{blue}METAFONT}}$$ font files [*],
 probably using the programming language $${\textbf{\color{blue}Lua}}$$
 and also publish the source for that.
 
@@ -46,3 +46,9 @@ Near Zürich, Switzerland, 27 Nov 2025
 Alain Stalder 
 
 [exactphilosophy.net](https://www.exactphilosophy.net)
+
+[*] 28 Nov 2025: I just noticed that things might be much simpler,
+namely base the OpenType fonts on “the canonical Type 1 versions of the Computer Modern family of fonts”
+contained in the [amsfonts package](https://www.ctan.org/pkg/amsfonts),
+i.e. translate the Type 1 fonts to OpenType fonts and then just “reassemble” to fonts Unicode characters,
+but to be seen.
