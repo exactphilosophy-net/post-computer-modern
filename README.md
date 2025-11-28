@@ -50,5 +50,5 @@ Alain Stalder
 [*] 28 Nov 2025: I just noticed that things might be much simpler,
 namely base the OpenType fonts on “the canonical Type 1 versions of the Computer Modern family of fonts”
 contained in the [amsfonts package](https://www.ctan.org/pkg/amsfonts),
-i.e. translate the Type 1 fonts to OpenType fonts and then just “reassemble” to fonts Unicode characters,
+i.e. translate the Type 1 fonts to OpenType fonts and then just “reassemble” to fonts with Unicode characters,
 but to be seen.
