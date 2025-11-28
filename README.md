@@ -2,7 +2,7 @@
 
 ***Note:*** *So far nothing is here except an idea and a sketch of a “plan” for the following.*
 
-Render an OpenType font family named $${\textbf{\color{blue}Post Computer Modern}}$$
+Render an **OpenType** font family named $${\textbf{\color{blue}Post Computer Modern}}$$
 that closely matches Donald E. Knuth’s font family $${\textbf{\color{blue}Computer Modern}}$$,
 the font family used in the original LaTeX including by default in today’s pdflatex variant.
 
